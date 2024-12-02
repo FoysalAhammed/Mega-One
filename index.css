@@ -59,7 +59,7 @@
     .drk-blu {
         color: #0284d0;}
     .light-blu {color: #39c5de;}
-    body {font-size: 14px;
+   html, body {font-size: 14px;
         color: #7e8186;
         font-family: 'Roboto', sans-serif;
         line-height: 24px;
@@ -69,6 +69,11 @@
         -o-transition: all 300ms ease-in-out;
         transition: all 300ms ease-in-out;
         right: 0;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+       overflow-x: hidden; 
     }
     body.pushmenu-push-toLeft {
         right: 20%;
